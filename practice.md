@@ -110,4 +110,32 @@ Output: Script stops as error occured.
 
 <img width="576" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/66da68ca-603a-4369-a899-15a8b737f96d">
 
-- 
+- Difference between curl and wget.
+
+- Command to retrieve the information from the internet
+
+      curl https://raw.githubusercontent.com/ManishNegi963/Shell-script-zer0-to-hero/main/dummylog01122022.log
+
+  <img width="821" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/0c3b145e-8f1c-4b05-abd2-0ead26b2ce97">
+
+ - Using grep with curl to retrieve specific information.
+
+       curl https://raw.githubusercontent.com/ManishNegi963/Shell-script-zer0-to-hero/main/dummylog01122022.log | grep ERROR
+
+   <img width="840" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/42dee9d2-ccc4-4817-811f-15362bd401e9">
+
+
+- wget command also retrieve the information from the internet but it download the information into a file.
+
+        wget https://raw.githubusercontent.com/ManishNegi963/Shell-script-zer0-to-hero/main/dummylog01122022.log
+
+  <img width="778" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/cdd72909-571e-4df9-9d24-27142f4684fa">
+
+- Then we can use cat and grep command retrieve information
+
+    cat dummylog01122022.log | grep ERROR
+
+<img width="632" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/57f6429f-1708-42d3-98a9-b54023d15a95">
+
+
+
