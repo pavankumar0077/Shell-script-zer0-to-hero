@@ -137,5 +137,53 @@ Output: Script stops as error occured.
 
 <img width="632" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/57f6429f-1708-42d3-98a9-b54023d15a95">
 
+- How to find any file?
 
+      sudo find / -name test.sh
 
+<img width="691" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/5690aff4-1d81-4497-a0f3-3a8c71cbaa2d">
+
+- if else loop
+
+  a=4
+  b=10
+
+      if [ $a -gt $b ]
+      then
+      echo "A is greater than B"
+      else
+      echo "B is greater than A"
+      fi
+
+  Output: B is greater than A
+
+  - for loop
+     
+        for i in {1..100}
+        do
+        echo $i;
+        done        
+
+Ouput: It will print number 1 to 100
+
+- How to use trap command?
+
+  Usage: Suppose a script is runnning and you accidently press ctrl+c then it will stop the script but when trap command is used we can interrupt the user to stop the script with echo message or sending email to owner of script etc. We can trap the signal to interrupt the script.
+
+      trap "echo dont use ctrl+c"  SIGINT
+
+  Or in case the data is being read and transferred by a script and someone try to interrupt the script by pressing ctrl+c then by using trap to remove all of the data being transferred as only half the data is transferred.
+
+      trap "rm -rf *" SIGINT
+
+- Find the process having ERROR and provide the process id from the log file
+
+      cat test.log | grep ERROR | awk -F " " '{print $3}
+
+OUput : Process id having word ERROR
+
+- How to kill a process?
+
+      kill -9 415424
+  
+  
