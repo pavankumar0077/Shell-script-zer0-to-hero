@@ -38,7 +38,7 @@ Shell script always have .sh extension.
     ANSWER: sh and bash both are executables to execute the script, previously if we wrote #!/bin/sh then it would link that to the bash executable but now some operation systems decided to link with dash as by default executable.
    Dash has a different syntax which will cause it to not run the script.
 
-   So, it is recommended to use "#!/bin/bash"
+   So, it is recommended to use "#!/bin/bash" , bash refers to interpreter.
 
 - Difference between touch and vim command?
 
