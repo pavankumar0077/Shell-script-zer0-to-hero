@@ -305,7 +305,7 @@ and upgrade install the packages.
       sudo gpasswd -M myuser,myuser1 mygroup2
 
   <img width="608" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/661b6762-d95f-4efd-ad6a-33fb7f1d9613">
-  -M refers to multiple
+  -M refers to multiple, this method of adding mulitple users to group will override the users, so to avoid that add existing users with new users.
 
   Multiple user has been added to group
 
