@@ -230,4 +230,19 @@ where -p refers to parent directory(A is parent directory)
 
 <img width="451" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/49319ae5-f5be-4e49-af8f-eb03611d87f5">
 
-- 
+- Difference between sudo useradd myuser and sudo useradd -m myuser?
+
+      sudo useradd -m myuser 
+This will create a directory of user in /home, -m refers to create a directory of user in home directory
+
+<img width="548" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/51628fd8-004f-4a08-8dba-965e9e57d8cb">
+
+
+    sudo useradd myuser 
+This won't create a directory of the user in /home.
+
+<img width="538" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/71d64444-12c3-4529-bf1a-5cde190ee25b">
+
+
+
+
