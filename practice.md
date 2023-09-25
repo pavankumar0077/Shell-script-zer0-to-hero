@@ -62,6 +62,14 @@ Shell script always have .sh extension.
 
    <img width="582" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/524de873-3c63-45c8-804b-4a6afdda458a">
 
+
+ -  We can run a scri[t by using bash file1.txt
+
+           bash file1.txt
+
+    <img width="445" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/07add166-30e9-4711-bb00-333ea9880cdc">
+
+
 - NOTE: In order to run a script, first we have to make the script executable by chnanging the permission of file using the command chmod .
 
         chmod 700 file.sh
@@ -361,4 +369,15 @@ Group has been changed to mygroup from mnmanish(As by default a file belong to o
 
 <img width="421" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/ba81479f-a6ab-4165-b7c4-514bb120dfa0">
 
+- Use case of 'arguments':
+
+$1 to take one argument, $# is used to count total argument, $@ to print all the arguments.
+
+ <img width="343" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/a75a1bf0-69f5-4f86-b21e-4c656408a087">
+
+Output: 
+
+<img width="578" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/f7e08b7a-7aaa-419b-b480-e3a9803ff27d">
+
 - 
+
