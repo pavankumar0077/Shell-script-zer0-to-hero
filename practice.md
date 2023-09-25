@@ -212,9 +212,22 @@ where -p refers to parent directory(A is parent directory)
 - List directory recursively A/B/c
 
       ls -R A
+- Remove directory recursilvely A/B/C
+
+      rm -R A
 
   <img width="394" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/e57520c0-dd7e-410f-bcc6-256721d880d8">
 
-- 
+- Write command to print first 3 line in a file?
 
-  
+      head -3 file1.txt
+
+<img width="435" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/3b1558fd-608e-4d23-8a60-50accb3135c4">
+
+- Write command to print last 2 lines in a file?
+
+      tail -2 file1.txt
+
+<img width="451" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/49319ae5-f5be-4e49-af8f-eb03611d87f5">
+
+- 
