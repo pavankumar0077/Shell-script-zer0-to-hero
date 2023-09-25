@@ -185,5 +185,19 @@ OUput : Process id having word ERROR
 - How to kill a process?
 
       kill -9 415424
-  
-  
+
+-  NOTE: / is the root directory and /bin consist of all the commands of linux
+
+  <img width="666" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/8fc90dac-516f-4b4e-8863-77cfc891d480">
+
+- '~' is the short form of /home/user/
+
+  <img width="300" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/df513385-99ca-4b13-9cf4-bd89b511b83f">
+
+- Write command to create 10 files?
+
+      touch file{1..10}.txt
+
+<img width="800" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/595a0492-5c93-42e2-80a8-1558e757b654">
+
+- 
