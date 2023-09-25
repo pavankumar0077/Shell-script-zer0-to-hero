@@ -137,6 +137,14 @@ Output: Script stops as error occured.
 
 <img width="632" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/57f6429f-1708-42d3-98a9-b54023d15a95">
 
+
+- Using grep command to find a word written inside a file.
+
+      grep -r fifth /home/mnmanish/
+ use -i to find a word case insensitive.
+  <img width="527" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/ef5a2d84-0d6f-423a-b244-55c630fb18ae">
+
+
 - How to find any file?
 
       sudo find / -name test.sh
@@ -311,5 +319,46 @@ and upgrade install the packages.
 
   <img width="334" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/7e14da53-f91d-45ca-a831-5a95689c7f84">
 
+- Removing user from group
+
+      sudo gpasswd -d myuser1  mygroup2
+
+  <img width="541" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/0a6a3c22-6cd7-4208-9b15-dae99bd08b3b">
+
+myuser1 has been removed from mugroup2
+
+    sudo cat /etc/group
+
+<img width="339" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/2a6d788e-446c-4f42-b6bd-33657327fcd0">
+
+- Delete group
+
+      sudo groupdel mygroup2
+
+  <img width="504" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/cfc47ee9-0d47-49ba-81f3-49541490521a">
+
+- View file permission.
+
+      ls -l file1.txt
+
+  <img width="423" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/bb786618-b167-40f6-9722-308cacf59c71">
+
+- Change file permission to user to execute.
+
+      chmod u+x file1.txt
+
+  <img width="499" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/a463d246-7859-43cb-9b15-4824b804ae8b">
+
+- Change group of a file.
+
+      sudo chgrp file1.txt mygroup
+
+<img width="384" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/c442abb8-e9ee-450d-96ea-972a88e44b1c">
+
+Group has been changed to mygroup from mnmanish(As by default a file belong to owner of group)
+
+    ls -l file1.txt
+
+<img width="421" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/ba81479f-a6ab-4165-b7c4-514bb120dfa0">
+
 - 
-  
