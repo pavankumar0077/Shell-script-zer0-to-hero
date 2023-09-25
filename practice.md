@@ -239,7 +239,7 @@ This will create a directory of user in /home, -m refers to create a directory o
 
 
     sudo useradd myuser 
-This will create user but won't create a directory of the user in /home.
+This will create user but won't create a directory of the user in /home. When you add a user, by defaut the user is added to his own group.
 
 <img width="538" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/71d64444-12c3-4529-bf1a-5cde190ee25b">
 
@@ -259,5 +259,57 @@ This will create user but won't create a directory of the user in /home.
 
   Every tool used in linux will create a user and one user doesnot have permission to interact with other user by default and that's what makes linux secure.
 
-- 
+- Difference between update and upgrade
 
+  update download the packages 
+
+      sudo apt update
+
+
+and upgrade install the packages.
+        
+        sudo apt upgrade
+
+- Command to add group.
+
+      sudo groupadd mygroup
+
+  <img width="387" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/f8d24f8d-9ea1-4f8a-81ee-9dd8929196b0">
+
+
+- view group
+
+      sudo cat /etc/group
+
+  <img width="341" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/1aeff944-69ee-4711-bc0d-6c3268bb9832">
+
+
+  When you add a user, by defaut the user is added to his own group.
+
+- Write command to Add user to a group.
+
+      sudo usermod -aG mygroup myuser
+
+  -a refers to append and G refers to group.
+
+  <img width="555" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/eb19a47d-2e5a-491e-bf5b-90ff5c78b172">
+
+- myuser has been added to the mygroup and now has permission of mygroup.
+
+    sudo cat /etc/group
+
+<img width="354" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/68550faa-24cf-479d-bf1b-544ab49cd1a6">
+
+- Adding multiple users to a group.
+
+      sudo gpasswd -M myuser,myuser1 mygroup2
+
+  <img width="608" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/661b6762-d95f-4efd-ad6a-33fb7f1d9613">
+  -M refers to multiple
+
+  Multiple user has been added to group
+
+  <img width="334" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/7e14da53-f91d-45ca-a831-5a95689c7f84">
+
+- 
+  
