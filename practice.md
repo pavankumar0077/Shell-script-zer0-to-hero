@@ -259,3 +259,5 @@ This will create user but won't create a directory of the user in /home.
 
   Every tool used in linux will create a user and one user doesnot have permission to interact with other user by default and that's what makes linux secure.
 
+- 
+
