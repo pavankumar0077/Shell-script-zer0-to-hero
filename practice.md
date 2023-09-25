@@ -200,4 +200,21 @@ OUput : Process id having word ERROR
 
 <img width="800" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/595a0492-5c93-42e2-80a8-1558e757b654">
 
+- Write command to create & view directories recursively A/B/C?
+
+      mkdir -p A/B/C
+
+  <img width="406" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/4307e74c-35c3-4edd-a065-2c4f4a85bfac">
+
+
+where -p refers to parent directory(A is parent directory)
+
+- List directory recursively A/B/c
+
+      ls -R A
+
+  <img width="394" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/e57520c0-dd7e-410f-bcc6-256721d880d8">
+
 - 
+
+  
