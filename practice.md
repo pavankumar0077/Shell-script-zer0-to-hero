@@ -239,10 +239,23 @@ This will create a directory of user in /home, -m refers to create a directory o
 
 
     sudo useradd myuser 
-This won't create a directory of the user in /home.
+This will create user but won't create a directory of the user in /home.
 
 <img width="538" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/71d64444-12c3-4529-bf1a-5cde190ee25b">
 
 
+- View all the users.
 
+      cat /etc/passwd
+
+  <img width="359" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/6c631f42-f4ee-4e8b-bb1d-25364bd127c0">
+
+- Users created
+
+<img width="350" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/e5f8e896-1ac5-4f0e-ace4-4770771cae00">
+
+
+- How linux is secure?
+
+  Every tool used in linux will create a user and one user doesnot have permission to interact with other user by default and that's what makes linux secure.
 
