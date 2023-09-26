@@ -442,3 +442,53 @@ This will provide read and write access to user mnmanish to file1.txt
 This will remove the access for mnmanish use to file1.txt
 
 <img width="514" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/9ea4901b-0588-4cb5-98d9-aa434d79dc44">
+
+
+- Multiline comments
+
+      <<COMMENT1
+      This is exmaple
+      of multiline
+      comments
+      COMMENT1
+
+  - COntrol commands
+ 
+        if condition
+        then
+        Display list of command if condition is true
+        else
+        DIsplay list of commands if condition is false
+        fi    
+
+   ## NOTE: if and then must be separated, either with a <<new line>> or a semicolon(;)
+
+  - Script to find greatest among 3 numbers
+ 
+    <img width="305" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/1a60cd19-aa35-4b3e-b419-28f4fe64d159">
+
+        #!/bin/bash
+        
+        read -p "Enter number one" n1
+        read -p "Enter number two" n2
+        read -p "Enter number three" n3
+        
+        if [ $n1 -gt $n2 ] && [ $n1 -gt $n3 ]
+        then
+        echo "$n1 is greatest number"
+        elif [ $n2 -gt $n1 ] && [ $n2 -gt $n3 ]
+        then 
+        echo "$n2 is greatest number"
+        elif [ $n3 -gt $n1 ] && [ $n3 -gt $n2 ]
+        then 
+        echo"$3 is greatest number"
+        else
+        echo "All numbers are same"
+        fi
+
+    OUtput :
+
+  <img width="386" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/2a880242-27a3-425a-a820-7494430dd236">
+
+
+  
