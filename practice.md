@@ -419,4 +419,26 @@ file refers to filename
  - Schedule job.
 
           * * * * * bash /home/mnmanish/Shell-scripting/firstfolder/file5.txt
-         
+
+- Usecase of Access control list
+
+  ACL is used when to give read or write permission to a user which is not part of a group without adding user to group.
+
+      getfacl file1.txt
+
+  This will show the details of file permissions.
+
+  <img width="485" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/68b6ba3f-b2ad-4622-8333-91b4141e4a38">
+
+
+        setfacl -m u:mnmanish:rw file1.txt
+
+This will provide read and write access to user mnmanish to file1.txt
+
+<img width="513" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/7e89d971-465e-4037-a646-13adce93545f">
+
+    setfacl -x u:mnmanish file1.txt
+
+This will remove the access for mnmanish use to file1.txt
+
+<img width="514" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/9ea4901b-0588-4cb5-98d9-aa434d79dc44">
