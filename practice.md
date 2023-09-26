@@ -379,5 +379,44 @@ Output:
 
 <img width="578" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/f7e08b7a-7aaa-419b-b480-e3a9803ff27d">
 
-- 
+- How to take backup and create zip?
 
+      tar -cvf backupfiles.tar.gz ~/Shell-scripting/firstfolder
+
+-c refers to create
+v refers to verbose(print on screen)
+file refers to filename
+.tar.gz is zip file extension
+
+<img width="703" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/a1de2260-3565-4de2-8958-4942e44c469a">
+
+- Extract zip file
+
+      tar -xvf backupfiles.tar.gz
+
+-x refers to extract
+
+ - Script to take backup
+     
+       #!/bin/bash
+       src=/home/mnmanish/Shell-scripting/firstfolder
+       tgt=/home/mnmanish/Shell-scripting
+       filename=$(date +'%d-%m-%y').tar.gz
+    
+       tar -cvf $tgt/$filename $src
+
+   This will create a backup with filename as current date.tar.gz in /home/mnmanish/Shell-scripting
+
+<img width="214" alt="image" src="https://github.com/ManishNegi963/Shell-script-zer0-to-hero/assets/124788172/b5a2808f-0eed-4060-a3d9-d35fb63fc9c4">
+
+
+- To schedule a cronjob to take run this automatically.
+
+- Select the editor
+
+      crontab -e
+
+ - Schedule job.
+
+          * * * * * bash /home/mnmanish/Shell-scripting/firstfolder/file5.txt
+         
