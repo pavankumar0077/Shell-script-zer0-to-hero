@@ -1,0 +1,10 @@
+
+
+basename /home/idrbt/Desktop/DevOps/shell-script/test.csv 
+test.csv
+
+dirname /home/idrbt/Desktop/DevOps/shell-script/test.csv
+/home/idrbt/Desktop/DevOps/shell-script
+
+idrbt@idrbt:~/Desktop/DevOps/shell-script$ realpath test.csv 
+/home/idrbt/Desktop/DevOps/shell-script/test.csv
